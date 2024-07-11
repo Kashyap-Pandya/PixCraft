@@ -1,11 +1,11 @@
 "use client";
 
 import { register } from "@/lib/action";
-import styles from "./registerform.module.css";
 import { useFormState } from "react-dom";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import styles from "./registerForm.module.css";
 
 const RegisterForm = () => {
   const [state, formAction] = useFormState(register, undefined);
