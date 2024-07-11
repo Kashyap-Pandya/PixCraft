@@ -1,6 +1,6 @@
 import { getUser } from "@/lib/data";
 import Image from "next/image";
-import styles from "./postUser.module.css";
+import styles from "./postuser.module.css";
 const PostUser = async ({ userId }) => {
   const user = await getUser(userId);
 
